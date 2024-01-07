@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+.header {
+  background-image: url("../images/banner/banner1.png");
+  height: 800px;
+  background-size: cover; /* This property ensures that the background image covers the entire header */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header-content {
+  position: absolute;
+  left: 50%;
+  top: 216px;
+  width: 525px;
+  text-align: right;
+}
+.header-text {
+  color: #151414;
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.header-description {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin-bottom: 24px;
+}
+.header .contact-us {
+  width: 160px;
+  height: 64px;
+  border-radius: 5px;
+  background: #f15b22;
+  border: 0;
+  font-size: 20px;
+  color: azure;
+  font-weight: 600;
+}
+.content-title {
+  font-size: 45px;
+  font-weight: 700;
+  color: aliceblue;
+}
+footer {
+  background-color: #151414;
+  height: 577px;
+  display: flex;
+  gap: 100px;
+  color: azure;
+}
+/* Main Styles */
+main {
+  max-width: 1600px;
+  /* margin: 0 auto; */
+}
+/* About Section Styles */
+.about {
+  margin-top: 140px !important;
+  display: flex;
+  position: relative;
+  height: 900px;
+  gap: 150px;
+}
+.circle {
+  margin-left: 270px;
+}
+.about-text {
+  margin: 250px 0 0 20px;
+  width: 416px;
+}
+.about-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+.about-description {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+ul {
+  list-style: none;
+  margin-top: 16px;
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+li {
+  margin-left: 30px;
+  list-style-image: url("../images//check\ 1.png");
+}
+.circle {
+  border-radius: 527.929px;
+  background: rgba(241, 91, 34, 0.2);
+  width: 527.929px;
+  height: 527.929px;
+}
+
+/* Plan Section Styles */
+.plans {
+
+  width: 1200px;
+  margin: 100px 100px 230px 230px;
+}
+.plan-type{
+    display: flex;
+}
+.plan-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+/* Section Banner Styles */
+.section-banner {
+}
