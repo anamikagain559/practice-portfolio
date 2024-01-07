@@ -63,7 +63,7 @@ main {
   margin-top: 140px !important;
   display: flex;
   height: 900px;
-  gap: 50px;
+  gap: 100px;
 }
 .about-img {
   position: relative;
